@@ -11,7 +11,7 @@ body{
     margin: auto;
     min-height: 100vh;
     background: #191919;
-    font-family: sans-serif;
+    font-family: "Vazirmatn", sans-serif;
 }
 
 .navbar{
@@ -24,6 +24,7 @@ body{
     align-items: center;
     z-index: 9;
     background: #1a1a1a;
+    font-family: "Vazirmatn", sans-serif;
 }
 
 .link-group{
@@ -110,6 +111,7 @@ body{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-stroke: 8px transparent;
+    font-family: "Vazirmatn", sans-serif;
 }
 
 .project-container{
@@ -441,3 +443,103 @@ body{
 }
 
 
+.footer {
+  position:relative;
+ justify-self: center;
+  background: #1a1a1a;
+  color: #e2e8f0;
+  width: 1510px;
+  padding: 30px 0px 10px;
+  font-family: "Vazirmatn", sans-serif;
+  margin: 0; 
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 120px;
+  max-width: 1455px;
+  margin: 0 auto;
+}
+
+.footer h3 {
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  
+}
+.link-info{
+margin-left: 500px;
+}
+
+.footer-about,
+.footer-links,
+.footer-social {
+  flex: 1 1 250px;
+}
+
+.l1{
+    margin-left: 415px;
+    font-size: 1.1rem;
+}
+
+.home-footer {
+    margin: 5px;
+}
+.contact-footer{
+    margin: 5px;
+}
+.about-footer{
+    margin: 5px;
+}
+.project-footer{
+     margin: 5px;
+}
+.footer-links a {
+  color: #e2e8f0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #38bdf8;
+}
+
+.social-icons a {
+  color: #e2e8f0;
+  font-size: 1.6rem;
+  margin-right: 15px;
+  transition: color 0.3s;
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons a:hover {
+  color: #38bdf8;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-bottom {
+  border-top: 1px solid floralwhite;
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+  }
+}
