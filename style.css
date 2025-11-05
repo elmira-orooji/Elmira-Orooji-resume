@@ -55,6 +55,7 @@ body{
     height: 100vh;
     padding: 0 150px;
     display: flex;
+  
     align-items: center;
     position: relative;
     top: 0;
@@ -67,6 +68,7 @@ body{
     font-size: 120px;
     text-transform: capitalize;
     font-weight: 300;
+    
 }
 
 .home-img{
@@ -459,6 +461,8 @@ body{
   align-items: center;
 }
 
+
+
 .footer-container {
   display: flex;
   flex-wrap: wrap;
@@ -546,3 +550,13 @@ margin-left: 500px;
     margin: 0 10px;
   }
 }
+
+
+
+
+
+
+
+
+
+
