@@ -11,8 +11,10 @@ body{
     margin: auto;
     min-height: 100vh;
     background: #191919;
-    font-family: "Vazirmatn", sans-serif;
+    font-family: "Vazirmatn", sans-serif , "Poppins";
 }
+
+
 
 .navbar{
     width: 100%;
@@ -348,7 +350,7 @@ body{
 
 .card{
     width: 45%;
-    padding: 30px;
+    padding: 49px;
     border-radius: 10px;
     color: #fff;
     display: block;
@@ -440,6 +442,7 @@ body{
     font-size: 30px;
     font-weight: 300;
     margin-bottom: 20px;
+    
 }
 
 
