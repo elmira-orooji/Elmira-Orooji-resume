@@ -55,7 +55,6 @@ body{
     height: 100vh;
     padding: 0 150px;
     display: flex;
-  
     align-items: center;
     position: relative;
     top: 0;
@@ -65,7 +64,7 @@ body{
 
 .hero-heading{
     color: #fff;
-    font-size: 120px;
+    font-size: 100px;
     text-transform: capitalize;
     font-weight: 300;
     
@@ -73,7 +72,7 @@ body{
 
 .home-img{
     position: absolute;
-    top: 0;
+    top: 70px;
     right: 0;
     height: 100vh;
     width: 50%;
@@ -92,6 +91,7 @@ body{
     opacity: 1;
     z-index: 8;
 }
+
 
 /* project-section */
 
@@ -115,7 +115,6 @@ body{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-stroke: 8px transparent;
-    font-family: "Vazirmatn", sans-serif;
 }
 
 .project-container{
@@ -189,6 +188,8 @@ body{
 .project-card:hover .project-content{
     opacity: 1;
 }
+
+
 /* about-section */
 
 .about-section{
