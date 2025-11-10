@@ -377,6 +377,7 @@ bdi {
     margin: -80px 0;
     position: relative;
     background: #f00;
+    direction: rtl;
 }
 
 .card:nth-child(even){
