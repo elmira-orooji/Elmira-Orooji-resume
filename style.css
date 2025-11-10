@@ -15,9 +15,9 @@ body{
 }
 
 bdi {
-      direction: ltr;          /* جهت متن انگلیسی */
-      unicode-bidi: isolate;   /* جلوگیری از به‌هم‌ریختگی متن */
-      font-family: Arial, sans-serif; /* فونت مناسب انگلیسی */
+      direction: ltr;          
+      unicode-bidi: isolate;  
+      font-family: Arial, sans-serif; 
     }
 
 
@@ -253,6 +253,7 @@ bdi {
     opacity: 0.6;
     font-size: 20px;
     line-height: 40px;
+    direction: rtl;
 }
 
 .about-img{
@@ -260,25 +261,6 @@ bdi {
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
-}
-
-.download-cv-btn{
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px 20px;
-    color: #fff;
-    border: none;
-    font-size: 16px;
-    text-transform: capitalize;
-    cursor: pointer;
-    transition: .5s;
-    background: rgba(0, 0, 0, 0.5);
-}
-
-.download-cv-btn:hover{
-    background: #000;
 }
 
 /* skills */
